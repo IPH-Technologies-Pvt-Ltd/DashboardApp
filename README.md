@@ -20,7 +20,7 @@ Before you begin, ensure you have met the following requirements:
 
 # Getting Started
 1. Clone the repository:
-git clone https://github.com/IPH-Technologies-Pvt-Ltd/DashboardApp.git
+git clone https://github.com/IPH-Technologies-Pvt-Ltd/Fnancial-Dashboard-App-Angular.git
 2. Install project dependencies:
 cd DashboardApp
 npm install
