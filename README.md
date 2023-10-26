@@ -1,27 +1,60 @@
-# DashboardUi
+# DashboardApp
+This is an Angular project dashboard that utilizes the ng-apexcharts library to create visually appealing charts.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+# Table of Contents
+1. Features
+2. Prerequisites
+3. Getting Started
+4. Project Structure
+5. Usage
+6. Customization
+7. License
+# Features
 
-## Development server
+1. Data visualization with various chart types such as line charts, bar charts, etc.
+2. Angular-based project structure for easy extension and customization.
+# Prerequisites
+Before you begin, ensure you have met the following requirements:
+1. Node.js and npm installed.
+2. Angular CLI installed globally.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Getting Started
+1. Clone the repository:
+git clone https://github.com/IPH-Technologies-Pvt-Ltd/DashboardApp.git
+2. Install project dependencies:
+cd DashboardApp
+npm install
+3. Start the development server:
+ng serve
+The application will be available at http://localhost:4200/
+# Project Structure
+1. src/app/ - Angular application source code.
+2. components/ - Contains dashboard components.
+3. assets/ - Static assets like images and sample data.
+4. app.module.ts - Application module file.
+5. src/environments/ - Environment-specific configuration files.
+6. angular.json - Angular CLI configuration.
+7. package.json - Project dependencies.
+8. tsconfig.json - TypeScript configuration.
+# Usage
+1. Add your data sources and customize the charts by modifying the Angular components in the src/app/components/ directory.
+2. Use the ng-apexcharts library to create and configure charts in your components.
+3. Implement authentication and authorization if required.
 
-## Code scaffolding
+# Customization
+The project can be customized in various ways:
+1. Change chart types, options, and data sources in your components.
+2. Add more components for additional dashboards or features.
+3. Style the application using CSS or a CSS framework of your choice.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# License
+This project is licensed under the MIT License.
 
-## Build
+Feel free to modify this README file to match your specific project details, and make sure to provide clear and concise instructions for developers and users to understand and work with your Angular dashboard project.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# demo video
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+https://github.com/IPH-Technologies-Pvt-Ltd/DashboardApp/assets/133772531/a8c97cd9-6fcf-48a0-bb55-7ac3d7d599e3
 
 ## Further help
-
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
