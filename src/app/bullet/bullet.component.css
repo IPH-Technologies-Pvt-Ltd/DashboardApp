@@ -1,0 +1,30 @@
+
+.custom-bullet-list {
+    list-style: none;
+    padding: 0;
+  }
+  .custom-bullet-list li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    padding-left: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  .custom-bullet-list li::before {
+    list-style: none;
+    content: '\2022';
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    background-color: #1d546f;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 18px; 
+  }
+

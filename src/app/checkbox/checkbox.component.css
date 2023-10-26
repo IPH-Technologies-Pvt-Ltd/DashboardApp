@@ -1,0 +1,31 @@
+label {
+    border: solid 2px rgb(216, 215, 215);
+    width: 27px;
+    height:29px;
+    color:green;
+    text-align:center;
+    font-size: 21px;
+    border-radius: 3px;
+    display: inline-block;
+}
+input[type=checkbox] {
+    display: none;
+}
+ 
+input:checked + label:before {
+    content: "✓";
+    font-weight: bold;
+}
+input:checked + label {
+    border: solid 2px rgb(216, 215, 215);
+    color: #8ccbe7;
+}
+ input[type=checkbox] + label:nth-of-type(2):before {
+    content: "X";
+    font-weight: bold;
+    color: #e63b5f;
+}
+span {
+    margin-left: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,24 @@
+.parent {
+    background:#f1f7f8;
+    height: 100vh;
+}
+.card1{
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.13);
+    border: none;
+}
+.card2{
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    border: none;
+}
+.span1{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.col-md-11{
+    margin-left: -22px;
+}
